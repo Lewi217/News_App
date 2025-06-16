@@ -18,8 +18,8 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import com.loc.newsapp.presentation.onboarding.Dimens.MediumPadding1
-import com.loc.newsapp.presentation.onboarding.Dimens.MediumPadding2
+import com.loc.newsapp.presentation.Dimens.MediumPadding1
+import com.loc.newsapp.presentation.Dimens.MediumPadding2
 import com.loc.newsapp.presentation.onboarding.Page
 import com.loc.newsapp.presentation.onboarding.pages
 import com.loc.newsapp.ui.theme.NewsAppTheme
