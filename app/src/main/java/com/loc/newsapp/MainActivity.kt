@@ -17,8 +17,6 @@ import androidx.core.view.WindowCompat
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.lifecycleScope
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
-import com.loc.newsapp.domain.usecases.AppEntryUseCases
-import com.loc.newsapp.domain.usecases.ReadAppEntry
 import com.loc.newsapp.presentation.navgraph.NavGraph
 import com.loc.newsapp.presentation.onboarding.OnBoardingScreen
 import com.loc.newsapp.presentation.onboarding.OnBoardingViewModel
