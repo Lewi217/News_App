@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import com.loc.newsapp.presentation.common.NewsButton
 import com.loc.newsapp.presentation.common.NewsTextButton
 import com.loc.newsapp.presentation.Dimens.MediumPadding2
+import com.loc.newsapp.presentation.Dimens.PageIndicatorWidth
 import com.loc.newsapp.presentation.onboarding.components.OnBoardingPage
 import com.loc.newsapp.presentation.onboarding.components.PagerIndicator
 import kotlinx.coroutines.launch
@@ -59,7 +60,7 @@ fun OnBoardingScreen(
             verticalAlignment = Alignment.CenterVertically
         ) {
             PagerIndicator(
-                modifier = Modifier.width(52.dp),
+                modifier = Modifier.width(PageIndicatorWidth),
                 pagesSize = pages.size,
                 selectedPage = pagerState.currentPage
             )
