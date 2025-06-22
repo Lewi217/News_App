@@ -10,6 +10,7 @@ import com.loc.newsapp.presentation.bookmark.BookmarkViewModel
 import com.loc.newsapp.presentation.onboarding.OnBoardingScreen
 import com.loc.newsapp.presentation.onboarding.OnBoardingViewModel
 import com.loc.newsapp.presentation.bookmark.BookmarkScreen
+import com.loc.newsapp.presentation.news_navigator.NewsNavigator
 
 
 @Composable
@@ -38,8 +39,7 @@ fun NavGraph(
             startDestination = Route.NewsNavigatorScreen.route
         ) {
             composable(route = Route.NewsNavigatorScreen.route){
-                val viewModel: BookmarkViewModel = hiltViewModel()
-                BookmarkScreen(state = viewModel.state.value, navigate = {})
+                NewsNavigator()
             }
         }
     }
